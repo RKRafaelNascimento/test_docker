@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "prepare": "node docs/prepare-swagger"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^1.13.1",
+    "fastify-cors": "^0.2.0",
+    "fastify-jwt": "^0.7.0",
+    "fastify-multipart": "^0.5.1",
+    "fastify-oas": "^0.6.2",
+    "fastify-swagger": "^0.15.3",
+    "fs-extra": "^7.0.1",
+    "sequelize": "^4.41.2",
+    "sqlite": "^3.0.0",
+    "sqlite3": "^4.0.4",
+    "swagger-ui-dist": "^3.20.1"
+  }
+}
